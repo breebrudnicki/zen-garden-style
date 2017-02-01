@@ -1,6 +1,6 @@
-@import 'bourbon'; // http://bourbon.io/
 
-@import '../partials/layout'; // responsive grid and media queries
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
 
 // color palette - these colors will be the color swatches of the Colors section
 
@@ -399,4 +399,4 @@ select {
 	@include appearance(none);
 }
 
-@import '../partials/basic-style';
+@import 'partials/basic-style';
