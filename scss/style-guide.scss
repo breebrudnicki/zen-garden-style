@@ -1,7 +1,7 @@
 
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
-
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sansita');
 // color palette - these colors will be the color swatches of the Colors section
 
 $color-1: #5f8ee4; // Cornflower Blue - Action color
@@ -17,12 +17,12 @@ $alert: $color-3;  // red
 
 // fonts
 
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Sansita', sans-serif;
 
-/* -------------------------------- 
+/* --------------------------------
 
-xBackground 
+xBackground
 
 -------------------------------- */
 
@@ -31,7 +31,7 @@ body {
 	background-color: $color-5;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xPatterns
 
@@ -46,9 +46,9 @@ xPatterns
 	padding: 6px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xNavigation 
+xNavigation
 
 -------------------------------- */
 
@@ -132,9 +132,9 @@ header {
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xPage title 
+xPage title
 
 -------------------------------- */
 
@@ -147,9 +147,9 @@ main > h1 {
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xTypography 
+xTypography
 
 -------------------------------- */
 
@@ -205,9 +205,9 @@ p {
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xButtons 
+xButtons
 
 -------------------------------- */
 
@@ -265,13 +265,13 @@ xButtons
 }
 
 .cd-buttons .cd-box:nth-of-type(2) span {
-	/* CSS class name color */ 
+	/* CSS class name color */
 	color: $color-1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xIcons 
+xIcons
 
 -------------------------------- */
 
@@ -281,9 +281,9 @@ xIcons
 	height: 32px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xForm 
+xForm
 
 -------------------------------- */
 
