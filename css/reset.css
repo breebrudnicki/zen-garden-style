@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
+ul {
+    display: flex;
+}
 body {
 	line-height: 1;
 }

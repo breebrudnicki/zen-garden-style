@@ -51,6 +51,26 @@ xPatterns
 xNavigation
 
 -------------------------------- */
+#navigation h3{
+    padding: 5px;
+    padding-top: 10px;
+}
+.cd-primary-nav, .cd-secondary-nav {
+    ul {
+        float: center;
+        display: inline;
+        li {
+            :hover {
+                color: $color-2;
+            }
+            a {
+                color: $color-1;
+                font-family: $secondary-font;
+                text-decoration: underline;
+            }
+        }
+    }
+}
 
 header {
 	background-color: $color-2;
