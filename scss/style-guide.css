@@ -4,20 +4,22 @@
 xBackground
 
 -------------------------------- */
+/* line 29, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 body {
   /* this is the page background */
-  background-color: #ffffff; }
+  background-color: #fcf9f7; }
 
 /* --------------------------------
 
 xPatterns
 
 -------------------------------- */
+/* line 40, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid #e6e6e6;
+  border: 1px solid #7a8694;
   border-radius: 3px;
-  background: #ffffff;
+  background: #fcf9f7;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px; }
 
@@ -26,113 +28,141 @@ xPatterns
 xNavigation
 
 -------------------------------- */
+/* line 55, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 header {
-  background-color: #19191a; }
+  background-color: #242e47; }
 
+/* line 59, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-logo {
   /* logo box style */
-  background-color: #5f8ee4;
+  background-color: #880201;
   width: 120px; }
   @media only screen and (min-width: 1024px) {
+    /* line 59, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .cd-logo {
       width: 180px; } }
 
+/* line 69, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: #19191a; }
+  background: #242e47; }
+  /* line 73, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .cd-main-nav li a {
-    color: #ffffff;
-    border-color: #262627; }
+    color: #fcf9f7;
+    border-color: #2d3958; }
   @media only screen and (min-width: 1024px) {
+    /* line 79, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .cd-main-nav li a {
-      color: #7d7d82; }
+      color: #7b8ebc; }
+      /* line 82, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
       .cd-main-nav li a.selected {
-        color: #ffffff;
-        box-shadow: 0 2px 0 #5f8ee4; }
+        color: #fcf9f7;
+        box-shadow: 0 2px 0 #880201; }
+      /* line 87, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
       .no-touch .cd-main-nav li a:hover {
-        color: #ffffff; } }
+        color: #fcf9f7; } }
 
+/* line 94, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: #ffffff; }
+  background-color: #fcf9f7; }
+  /* line 98, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .cd-nav-trigger span::before, .cd-nav-trigger span::after {
     /* upper and lower lines */
-    background-color: #ffffff; }
+    background-color: #fcf9f7; }
 
+/* line 105, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(255, 255, 255, 0); }
+  background-color: rgba(252, 249, 247, 0); }
+  /* line 109, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
     /* preserve visibility of upper and lower lines - close icon */
-    background-color: white; }
+    background-color: #fcf9f7; }
 
+/* line 115, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: #323234; }
+  background-color: #354469; }
+  /* line 119, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .no-touch .cd-download:hover {
-    background-color: #3f3f41; }
+    background-color: #3e4f7a; }
+  /* line 123, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .cd-download span {
     /* tooltip */
-    background: #5f8ee4;
-    color: #ffffff; }
+    background: #880201;
+    color: #fcf9f7; }
+    /* line 128, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .cd-download span::before {
       /* right arrow color */
-      border-color: #5f8ee4; }
+      border-color: #880201; }
 
 /* --------------------------------
 
 xPage title
 
 -------------------------------- */
+/* line 141, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 main > h1 {
-  color: #19191a; }
+  color: #242e47; }
   @media only screen and (min-width: 1600px) {
+    /* line 141, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     main > h1 {
       /* title goes into the header on big devices */
-      color: #ffffff; } }
+      color: #fcf9f7; } }
 
 /* --------------------------------
 
 xTypography
 
 -------------------------------- */
+/* line 156, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 h1, h2 {
   font-family: "Sansita", sans-serif;
-  color: #19191a; }
+  color: #242e47; }
 
+/* line 161, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 h1 {
   font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
   @media only screen and (min-width: 768px) {
+    /* line 161, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     h1 {
       font-size: 3.2rem; } }
   @media only screen and (min-width: 1024px) {
+    /* line 161, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     h1 {
       font-size: 4rem; } }
 
+/* line 176, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
   @media only screen and (min-width: 768px) {
+    /* line 176, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     h2 {
       font-size: 1.8rem;
       margin: 1em 0 1.4em; } }
 
+/* line 187, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 section > h2::before {
   /* number before each section title */
-  color: silver; }
+  color: #56606b; }
 
+/* line 192, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #58585b; }
+  color: #4f659c; }
+  /* line 197, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   p a {
-    color: #5f8ee4;
+    color: #880201;
     text-decoration: underline; }
   @media only screen and (min-width: 768px) {
+    /* line 192, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     p {
       font-size: 1.6rem;
       line-height: 1.6; } }
@@ -142,48 +172,60 @@ p {
 xButtons
 
 -------------------------------- */
+/* line 214, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .btn {
   border: none;
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
   font-family: "Sansita", sans-serif;
-  color: #ffffff;
+  color: #fcf9f7;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4; }
+  background: #880201; }
+  /* line 227, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .btn:focus {
     outline: none; }
+  /* line 231, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .no-touch .btn:hover {
-    background: #759de8; }
+    background: #a10201; }
+  /* line 235, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .btn.btn-success {
     background: #6fce72; }
+    /* line 238, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .no-touch .btn.btn-success:hover {
       background: #82d485; }
+  /* line 243, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .btn.btn-alert {
-    background: #e4655f; }
+    background: #45352e; }
+    /* line 246, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .no-touch .btn.btn-alert:hover {
-      background: #e87a75; }
+      background: #544138; }
+  /* line 251, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .btn.btn-outline {
-    color: #5f8ee4;
+    color: #880201;
     background: transparent;
-    box-shadow: inset 0 0 0 1px #5f8ee4; }
+    box-shadow: inset 0 0 0 1px #880201; }
+    /* line 256, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .no-touch .btn.btn-outline:hover {
-      color: #ffffff;
-      background: #5f8ee4; }
+      color: #fcf9f7;
+      background: #880201; }
   @media only screen and (min-width: 768px) {
+    /* line 214, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
     .btn {
       font-size: 1.6rem; } }
 
+/* line 267, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: #5f8ee4; }
+  color: #880201; }
 
 /* --------------------------------
 
 xIcons
 
 -------------------------------- */
+/* line 278, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-icons li {
   /* icons size */
   width: 32px;
@@ -194,26 +236,33 @@ xIcons
 xForm
 
 -------------------------------- */
+/* line 290, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 input[type=text], select {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #7a8694;
   border-radius: .25em;
-  background: #ffffff; }
+  background: #fcf9f7; }
+  /* line 295, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   input[type=text]:focus, select:focus {
     outline: none; }
 
+/* line 300, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 input[type=text] {
   padding: .6em 1em;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03); }
+  /* line 304, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   input[type=text].success {
     border-color: #6fce72;
     box-shadow: 0 0 6px rgba(111, 206, 114, 0.2); }
+  /* line 309, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   input[type=text].alert {
-    border-color: #e4655f;
-    box-shadow: 0 0 6px rgba(228, 101, 95, 0.2); }
+    border-color: #45352e;
+    box-shadow: 0 0 6px rgba(69, 53, 46, 0.2); }
+  /* line 314, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   input[type=text]:focus {
-    border-color: #5f8ee4;
-    box-shadow: 0 0 6px rgba(95, 142, 228, 0.2); }
+    border-color: #880201;
+    box-shadow: 0 0 6px rgba(136, 2, 1, 0.2); }
 
+/* line 320, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 input[type=radio],
 input[type=checkbox] {
   position: absolute;
@@ -223,6 +272,7 @@ input[type=checkbox] {
   padding: 0;
   opacity: 0; }
 
+/* line 330, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .radio-label,
 .checkbox-label {
   padding-left: 24px;
@@ -230,6 +280,7 @@ input[type=checkbox] {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+  /* line 335, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .radio-label::before, .radio-label::after,
   .checkbox-label::before,
   .checkbox-label::after {
@@ -245,33 +296,40 @@ input[type=checkbox] {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%); }
+  /* line 347, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .radio-label::before,
   .checkbox-label::before {
     left: 0;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #7a8694;
     box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03); }
+  /* line 353, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
   .radio-label::after,
   .checkbox-label::after {
     left: 3px;
     background: url("../assets/form/icon-check.svg") no-repeat center center;
     display: none; }
 
+/* line 360, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .radio-label::before {
   border-radius: 50%; }
 
+/* line 364, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .checkbox-label::before {
   border-radius: 3px; }
 
+/* line 368, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
-  background-color: #19191a;
+  background-color: #242e47;
   border: none;
   box-shadow: none; }
 
+/* line 375, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 input[type=radio]:checked + label::after,
 input[type=checkbox]:checked + label::after {
   display: block; }
 
+/* line 380, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 .cd-select::after {
   /* switcher arrow for select element */
   content: '';
@@ -290,6 +348,7 @@ input[type=checkbox]:checked + label::after {
   background: url("../assets/form/icon-select.svg") no-repeat center center;
   pointer-events: none; }
 
+/* line 395, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/style-guide.scss */
 select {
   position: relative;
   padding: .6em 2em .6em 1em;
@@ -305,32 +364,40 @@ select {
 xBasic style
 
 -------------------------------- */
+/* line 7, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 11, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* line 16, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 html {
   font-size: 62.5%; }
 
+/* line 20, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 body {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif; }
 
+/* line 25, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 a {
   text-decoration: none; }
 
+/* line 29, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 img {
   max-width: 100%; }
 
+/* line 33, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 input, textarea, select {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem; }
 
+/* line 38, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 header {
   position: fixed;
   height: 50px;
@@ -339,20 +406,25 @@ header {
   left: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   z-index: 10; }
+  /* line 47, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   header nav {
     display: inline-block; }
   @media only screen and (min-width: 1024px) {
+    /* line 38, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     header {
       height: 80px; }
+      /* line 8, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_prefix-mixins.scss */
       header::after {
         clear: both;
         content: "";
         display: block; } }
 
+/* line 57, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-logo {
   display: inline-block;
   height: 100%;
   position: relative; }
+  /* line 62, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-logo img {
     position: absolute;
     display: block;
@@ -364,9 +436,11 @@ header {
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
   @media only screen and (min-width: 1600px) {
+    /* line 57, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-logo {
       margin-left: 5%; } }
 
+/* line 75, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-nav-trigger {
   display: block;
   position: absolute;
@@ -377,6 +451,7 @@ header {
   overflow: hidden;
   white-space: nowrap;
   color: transparent; }
+  /* line 86, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-nav-trigger span {
     position: absolute;
     height: 2px;
@@ -388,6 +463,7 @@ header {
     -webkit-transition: background-color 0.3s 0.3s;
     -moz-transition: background-color 0.3s 0.3s;
     transition: background-color 0.3s 0.3s; }
+    /* line 96, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-nav-trigger span::before, .cd-nav-trigger span::after {
       content: '';
       position: absolute;
@@ -405,12 +481,14 @@ header {
       -webkit-transition: transform 0.3s 0.3s;
       -moz-transition: transform 0.3s 0.3s;
       transition: transform 0.3s 0.3s; }
+    /* line 109, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-nav-trigger span::before {
       -webkit-transform: translateY(-6px);
       -moz-transform: translateY(-6px);
       -ms-transform: translateY(-6px);
       -o-transform: translateY(-6px);
       transform: translateY(-6px); }
+    /* line 113, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-nav-trigger span::after {
       -webkit-transform: translateY(6px);
       -moz-transform: translateY(6px);
@@ -418,9 +496,11 @@ header {
       -o-transform: translateY(6px);
       transform: translateY(6px); }
   @media only screen and (min-width: 1024px) {
+    /* line 75, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-nav-trigger {
       display: none; } }
 
+/* line 123, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-main-nav {
   position: fixed;
   top: 0;
@@ -437,15 +517,18 @@ header {
   -webkit-transition: transform 0.3s;
   -moz-transition: transform 0.3s;
   transition: transform 0.3s; }
+  /* line 134, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-main-nav li a {
     display: block;
     font-size: 1.8rem;
     padding: 1em 0;
     border-bottom-width: 1px;
     border-style: solid; }
+  /* line 142, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-main-nav li:first-of-type a {
     border-top-width: 1px; }
   @media only screen and (min-width: 1024px) {
+    /* line 123, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-main-nav {
       position: static;
       display: table;
@@ -459,10 +542,12 @@ header {
       background: transparent;
       padding: 0 2em;
       text-align: left; }
+      /* line 156, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       .cd-main-nav li {
         display: table-cell;
         vertical-align: middle;
         padding: 0 1em; }
+      /* line 162, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       .cd-main-nav li a {
         display: inline-block;
         font-size: 1.6rem;
@@ -471,24 +556,31 @@ header {
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s; }
+      /* line 170, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       .cd-main-nav li:first-of-type a {
         border-top: none; } }
   @media only screen and (min-width: 1600px) {
+    /* line 123, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-main-nav {
       display: none; } }
 
+/* line 183, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .nav-is-visible .cd-nav-trigger span::before {
   -webkit-transform: translateY(0) rotate(-45deg);
   -moz-transform: translateY(0) rotate(-45deg);
   -ms-transform: translateY(0) rotate(-45deg);
   -o-transform: translateY(0) rotate(-45deg);
   transform: translateY(0) rotate(-45deg); }
+
+/* line 187, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .nav-is-visible .cd-nav-trigger span::after {
   -webkit-transform: translateY(0) rotate(45deg);
   -moz-transform: translateY(0) rotate(45deg);
   -ms-transform: translateY(0) rotate(45deg);
   -o-transform: translateY(0) rotate(45deg);
   transform: translateY(0) rotate(45deg); }
+
+/* line 192, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .nav-is-visible .cd-main-nav {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -496,6 +588,7 @@ header {
   -o-transform: translateY(0);
   transform: translateY(0); }
 
+/* line 197, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-download {
   position: absolute;
   top: 0;
@@ -509,6 +602,7 @@ header {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s; }
+  /* line 209, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-download span {
     /* tooltip */
     position: absolute;
@@ -524,6 +618,7 @@ header {
     -webkit-transition: opacity .2s 0s, visibility 0s .2s;
     -moz-transition: opacity .2s 0s, visibility 0s .2s;
     transition: opacity .2s 0s, visibility 0s .2s; }
+    /* line 225, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-download span::before {
       /* right arrow */
       content: '';
@@ -537,6 +632,7 @@ header {
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-right-color: transparent; }
+  /* line 241, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .no-touch .cd-download:hover span {
     opacity: 1;
     visibility: visible;
@@ -544,30 +640,38 @@ header {
     -moz-transition: opacity .2s 0s, visibility 0s 0s;
     transition: opacity .2s 0s, visibility 0s 0s; }
   @media only screen and (min-width: 1024px) {
+    /* line 197, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-download {
       display: block; }
+      /* line 252, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       .cd-download span {
         opacity: 0;
         visibility: hidden; } }
   @media only screen and (min-width: 1600px) {
+    /* line 197, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-download {
       right: 5%; } }
 
+/* line 263, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 main {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
   padding: 50px 0; }
+  /* line 269, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   main > h1 {
     text-align: center;
     margin: 3em 0; }
   @media only screen and (min-width: 1024px) {
+    /* line 263, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     main {
       padding-top: 80px; } }
   @media only screen and (min-width: 1600px) {
+    /* line 263, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     main {
       max-width: none;
       padding: 120px 0 50px; }
+      /* line 282, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       main > h1 {
         position: fixed;
         top: 0;
@@ -579,94 +683,129 @@ main {
         font-size: 2.6rem;
         z-index: 20; } }
 
+/* line 296, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 section {
   margin: 3em 0; }
+  /* line 8, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_prefix-mixins.scss */
   section::after {
     clear: both;
     content: "";
     display: block; }
+  /* line 300, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(1) h2::before {
     content: '1. '; }
+  /* line 304, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(2) h2::before {
     content: '2. '; }
+  /* line 308, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(3) h2::before {
     content: '3. '; }
+  /* line 312, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(4) h2::before {
     content: '4. '; }
+  /* line 316, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(5) h2::before {
     content: '5. '; }
+  /* line 320, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(6) h2::before {
     content: '6. '; }
+  /* line 324, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(7) h2::before {
     content: '7. '; }
+  /* line 327, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(8) h2::before {
     content: '8. '; }
+  /* line 330, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(9) h2::before {
     content: '9. '; }
+  /* line 333, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   section:nth-of-type(10) h2::before {
     content: '10. '; }
   @media only screen and (min-width: 768px) {
+    /* line 296, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     section {
       margin: 3em 0 5em; } }
   @media only screen and (min-width: 1600px) {
+    /* line 296, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     section {
       width: 48%;
       float: left;
       margin: 0 4% 4em 0; }
+      /* line 345, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
       section:nth-of-type(2n) {
         margin-right: 0; } }
 
 /* xBranding section - basic style */
+/* line 355, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-branding .cd-box {
   margin-bottom: 1em; }
+
+/* line 359, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-branding img {
   display: block;
   width: 100%; }
+
+/* line 364, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-branding ul:last-of-type {
   padding-top: .6em; }
+  /* line 367, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type li {
     display: inline-block;
     margin-right: 1em; }
+  /* line 372, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type li:nth-of-type(1) img {
     width: 90px;
     height: 90px;
     border-radius: 1em; }
+  /* line 378, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type li:nth-of-type(2) img {
     width: 60px;
     height: 60px;
     border-radius: .6em; }
+  /* line 384, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type li:nth-of-type(3) img {
     width: 32px;
     height: 32px;
     border-radius: .4em; }
+  /* line 390, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type li:nth-of-type(4) img {
     width: 16px;
     height: 16px;
     border-radius: .2em; }
+
 @media only screen and (min-width: 768px) {
+  /* line 398, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding .cd-box {
     width: 49%;
     float: left;
     margin: 0 2% 2em 0; }
+    /* line 402, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-branding .cd-box:nth-of-type(2n) {
       margin-right: 0; }
+  /* line 407, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-branding ul:last-of-type {
     clear: left; }
+    /* line 410, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-branding ul:last-of-type li {
       margin-right: 3em; } }
 
 /* xColor section - basic style */
+/* line 421, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li {
   text-align: center;
   width: 48%;
   float: left;
   margin: 0 4% 1em 0; }
+  /* line 426, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(2n) {
     margin-right: 0; }
+
+/* line 431, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors .cd-color-swatch {
   position: relative;
   width: 100%;
   padding: 50% 0; }
+  /* line 436, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors .cd-color-swatch::before, .cd-colors .cd-color-swatch::after {
     /* lighter and darker color shades of the same swatch */
     content: '';
@@ -674,59 +813,89 @@ section {
     bottom: 0;
     width: 50%;
     height: 20%; }
+  /* line 445, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors .cd-color-swatch::before {
     left: 0; }
+  /* line 449, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors .cd-color-swatch::after {
     right: 0; }
+
+/* line 454, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors b {
   display: block;
   padding: .6em 0; }
+
+/* line 459, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4; }
+  background: #880201; }
+  /* line 462, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-    background: #759de8; }
+    background: #a10201; }
+  /* line 466, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-    background: #497fe0; }
+    background: #6f0201; }
+
+/* line 471, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a; }
+  background: #242e47; }
+  /* line 474, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-    background: #262627; }
+    background: #2d3958; }
+  /* line 478, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-    background: #0d0d0d; }
+    background: #1b2336; }
+
+/* line 483, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f; }
+  background: #45352e; }
+  /* line 486, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-    background: #e87a75; }
+    background: #544138; }
+  /* line 490, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-    background: #e05049; }
+    background: #362924; }
+
+/* line 495, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6; }
+  background: #7a8694; }
+  /* line 498, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-    background: #f3f3f3; }
+    background: #88939f; }
+  /* line 502, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-    background: #d9d9d9; }
+    background: #6d7987; }
+
+/* line 507, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ffffff; }
+  background: #fcf9f7; }
+  /* line 510, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
     background: white; }
+  /* line 514, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-    background: #f2f2f2; }
+    background: #f5ebe4; }
+
 @media only screen and (min-width: 768px) {
+  /* line 520, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-colors li {
     width: 19%;
     float: left;
     margin: 0 1.25% 1em 0; }
+    /* line 524, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-colors li:nth-of-type(2n) {
       margin-right: 1.25%; }
+    /* line 528, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-colors li:nth-of-type(5n) {
       margin-right: 0; } }
 
+/* line 535, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-typography .cd-box,
 .cd-buttons .cd-box,
 .cd-icons .cd-box,
 .cd-form .cd-box {
   padding: 1em; }
   @media only screen and (min-width: 768px) {
+    /* line 542, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
     .cd-typography .cd-box .cd-box,
     .cd-buttons .cd-box .cd-box,
     .cd-icons .cd-box .cd-box,
@@ -734,60 +903,93 @@ section {
       padding: 2em; } }
 
 /* xTypography section - basic style */
+/* line 552, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-typography h1::before {
   content: 'Aa - ';
-  color: #5f8ee4; }
+  color: #880201; }
 
+/* line 559, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0; }
+
+/* line 564, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-buttons .cd-box:last-of-type {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
+
+/* line 570, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-buttons button {
   margin: .4em; }
+
 @media only screen and (min-width: 1024px) {
+  /* line 575, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-buttons button {
     margin: 1em; } }
 
 /* xIcons section - basic style */
+/* line 584, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons li {
   display: inline-block;
   background-position: center center;
   background-repeat: no-repeat;
   margin: 1em; }
+
+/* line 591, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-1 {
   background-image: url("../assets/icons/icon-1.svg"); }
+
+/* line 595, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-2 {
   background-image: url("../assets/icons/icon-2.svg"); }
+
+/* line 599, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-3 {
   background-image: url("../assets/icons/icon-3.svg"); }
+
+/* line 603, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-4 {
   background-image: url("../assets/icons/icon-4.svg"); }
+
+/* line 607, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-5 {
   background-image: url("../assets/icons/icon-5.svg"); }
+
+/* line 611, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-6 {
   background-image: url("../assets/icons/icon-6.svg"); }
+
+/* line 615, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-7 {
   background-image: url("../assets/icons/icon-7.svg"); }
+
+/* line 619, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-icons .cd-icon-8 {
   background-image: url("../assets/icons/icon-8.svg"); }
 
 /* xForm section - basic style */
+/* line 627, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-form input[type=text],
 .cd-form .cd-input-wrapper {
   margin: 1em; }
+
+/* line 632, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-form .cd-input-wrapper {
   position: relative;
   display: inline-block; }
+
+/* line 637, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .cd-form select::-ms-expand {
   display: none; }
 
 @-moz-document url-prefix() {
   /* hide custom arrow on Firefox */
+  /* line 644, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
   .cd-select::after {
     display: none; } }
+
+/* line 649, C:/Users/Britt/OneDrive/Documents/BYUI Winter 2017/CIT 301/zen-garden-style-master/scss/partials/_basic-style.scss */
 .no-csstransitions .cd-select::after {
   display: none; }
 
